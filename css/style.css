@@ -12,4 +12,50 @@ body {
 	margin: auto;
 	font-family: "Open Sans", sans-serif;
 	overflow-x: hidden;
+	background-color: #808080;
+}
+
+/* CSS for header */
+header {
+	background-image: url(../Assets/Photos/futuristic-bg.png);
+	color: #fff;
+}
+
+/* CSS for nav bar */
+.navbar {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 160px;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+}
+
+.nav-list {
+	margin-right: 200px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-list li {
+	margin: 0 20px;
+	color: #e8e7e7;
+}
+
+.btn-signin {
+	color: #eef6ff;
+	background: transparent;
+	padding: 15px 35px;
+	font-size: 14px;
+	border: none;
+}
+
+.btn-signup {
+	color: #eef6ff;
+	background-color: #f4694c;
+	padding: 15px 35px;
+	font-size: 14px;
+	font-weight: 600;
 }
