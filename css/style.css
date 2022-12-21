@@ -185,3 +185,49 @@ header {
 	border: none;
 	padding: 10px 15px;
 }
+
+.war-game {
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 70px 160px;
+}
+
+.war-game img {
+	width: 60%;
+	clip-path: polygon(16% 0, 85% 0, 85% 100%, 16% 100%);
+	margin-left: -120px;
+}
+
+.war-game h1 {
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.war-game p {
+	font-size: 14px;
+	color: #898989;
+}
+
+.war-game button {
+	margin: 40px 0;
+	margin-right: 20px;
+	padding: 15px 35px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.btn-explore {
+	color: #fff;
+	background-color: #f4694c;
+	border: none;
+}
+
+.btn-learn-more2 {
+	color: #f4694c;
+	border: none;
+	background: transparent;
+	border: 1px solid #f4694c;
+}
