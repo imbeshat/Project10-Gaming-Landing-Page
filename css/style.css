@@ -135,3 +135,53 @@ header {
 	margin-top: 80px;
 	margin-left: 50px;
 }
+
+/* CSS for popular games section */
+.popular {
+	background-color: #fff;
+	padding: 160px 160px 120px 160px;
+}
+
+.popular h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	padding-bottom: 70px;
+}
+
+.all-game-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.game-cards {
+	width: 25%;
+	position: relative;
+}
+
+.game-cards img[alt="game-image"] {
+	width: 17vw;
+	height: 35vh;
+}
+
+.game-rating {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	bottom: 5px;
+	width: 87.15%;
+	backdrop-filter: blur(40px);
+	padding: 10px 0;
+	color: #fff;
+	line-height: 25px;
+}
+
+.btn-download {
+	background-color: #f4694c;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+}
