@@ -173,7 +173,7 @@ header {
 	position: absolute;
 	bottom: 5px;
 	width: 87.15%;
-	backdrop-filter: blur(40px);
+	backdrop-filter: blur(8px);
 	padding: 10px 0;
 	color: #fff;
 	line-height: 25px;
