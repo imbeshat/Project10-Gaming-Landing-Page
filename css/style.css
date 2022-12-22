@@ -355,3 +355,32 @@ header {
 	width: 24%;
 	margin-left: 4%;
 }
+
+/* CSS for gamer section */
+.gamer-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Assets/Photos/Rectangle\ 606.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.gamer-text {
+	text-align: center;
+	padding: 170px 0;
+}
+
+.gamer-text h1 {
+	color: #fff;
+	font-size: 40px;
+}
+
+.gamer-text p {
+	color: #7a7c78;
+	font-size: 15px;
+	margin: 30px 0;
+}
+
+.gamer-btn {
+	font-weight: 00;
+	border: none;
+	margin-top: 20px;
+}
