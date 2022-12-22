@@ -317,11 +317,41 @@ header {
 /* CSS for game of the year section */
 .game-of-year {
 	background-color: #000308;
-	padding: 80px 160px;
+	padding: 120px 160px;
 }
 
 .game-of-year h1 {
 	color: #fff;
 	font-size: 45px;
 	text-align: center;
+}
+
+.game-images img[alt="hell"] {
+	margin-top: 4%;
+	width: 33%;
+	z-index: 1;
+}
+
+.game-images p {
+	color: #707175;
+	font-size: 15px;
+	margin-left: 38%;
+	margin-top: -33%;
+	margin-bottom: 3%;
+}
+
+.game-images img[alt="game-world"] {
+	margin-left: 32%;
+	width: 80.5%;
+}
+
+.game-images img[alt="devil"] {
+	width: 25%;
+	margin-left: 38%;
+	margin-top: -3%;
+}
+
+.game-images img[alt="cyborg"] {
+	width: 24%;
+	margin-left: 4%;
 }
