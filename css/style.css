@@ -186,6 +186,7 @@ header {
 	padding: 10px 15px;
 }
 
+/* CSS for war game section */
 .war-game {
 	background-color: #fff;
 	display: flex;
@@ -232,6 +233,7 @@ header {
 	border: 1px solid #f4694c;
 }
 
+/* CSS for recommended games section */
 .recommended-games {
 	background-color: #fff;
 	padding: 120px 160px;
@@ -310,4 +312,16 @@ header {
 	padding: 18px 40px;
 	font-size: 16px;
 	border: none;
+}
+
+/* CSS for game of the year section */
+.game-of-year {
+	background-color: #000308;
+	padding: 80px 160px;
+}
+
+.game-of-year h1 {
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
 }
