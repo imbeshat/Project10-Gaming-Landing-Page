@@ -242,12 +242,14 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 80px;
 }
 
 .recom-text h1 {
 	font-size: 40px;
 	font-weight: 700;
 }
+
 .arrow {
 	display: flex;
 	flex-direction: row;
@@ -274,10 +276,38 @@ header {
 .recommended-games-card {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: space-between; */
 	align-items: center;
+	margin-bottom: 90px;
 }
 
 .recommended-games-card img {
 	width: 40%;
+}
+
+.cards-text {
+	margin-left: 30px;
+}
+
+.cards-text h1 {
+	font-size: 27px;
+}
+
+.cards-text h3 {
+	color: #f4684a;
+	margin: 20px 0;
+	font-size: 16px;
+}
+
+.cards-text p {
+	color: #7c7c7c;
+	font-size: 15px;
+}
+
+.download-btn {
+	color: #fff;
+	background-color: #f4694c;
+	margin-top: 30px;
+	padding: 18px 40px;
+	font-size: 16px;
+	border: none;
 }
