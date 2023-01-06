@@ -360,8 +360,6 @@ header {
 .gamer-section {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Assets/Photos/Rectangle\ 606.png);
 	background-size: cover;
-	background-position: top;
-	background-size: contain;
 }
 
 .gamer-text {
